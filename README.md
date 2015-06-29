@@ -1,3 +1,3 @@
 # TwitWrangler
 
-* wrangle those tweets my friend *
+> wrangle those tweets, my friend 
