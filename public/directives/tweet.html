@@ -1,0 +1,21 @@
+<!-- <div>
+    <img ng-src="{{ theTweet.imageUrl }}" />
+    <h2>{{ theTweet.name }}</h1>
+    <h3>{{ theTweet.handle }}</h3>
+    <p>{{ theTweet.text }}</p>
+</div> -->
+
+<table style="width:100%">
+  <tr>
+    <th>Avatar</th>
+    <th>Handle</th>
+    <th>Name</th>
+    <th>Tweet</th>
+  </tr>
+  <tr>
+    <td><img ng-src="{{ theTweet.imageUrl }}" /></td>
+    <td>{{ theTweet.handle }}</td>
+    <td>{{ theTweet.name }}</td>
+    <td class="tweet-text">{{ theTweet.text }}</td>
+  </tr>
+</table>
